@@ -21,7 +21,7 @@ This project uses an EC2 instance to host a Flask web app that uploads files to 
 ```bash
 cd "C:/Users/shantanu/OneDrive/Desktop/project/project key"
 chmod 400 shantanu.pem
-ssh -i ankit.pem ec2-user@<YOUR_EC2_PUBLIC_IPV4>
+ssh -i shantanu.pem ec2-user@<YOUR_EC2_PUBLIC_IPV4>
 sudo yum update -y  
 sudo yum install python3-pip -y  
 pip3 --version  
